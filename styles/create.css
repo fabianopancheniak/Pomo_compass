@@ -1,3 +1,13 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.back_arrow:active{
+    background-color: grey;
+    transition: 2500ms;
+    opacity: 0.8;
+}
+
 .back_arrow{
     width: 5%;
     height: 5%;
@@ -7,22 +17,38 @@
 .h1{
     font-family: 'Roboto', sans-serif;
     margin-top: 25%;
+    margin-bottom: 25%;
     text-align: center;
     font-size: 50px;
 }
-.button_list{
+.list_reset{
     text-align: center;
+    list-style-type:none; padding: 0; margin: 0;
 }
+
 .li_button{
-    padding: 15px;
     margin: 5px;
     width: 90%;
-    border-radius: 20px;
-    border: none;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: lightgray;
+    background-color: white;
     padding: 15px 0px 15px 0px;
     font-weight: bold;
+    font-size: 15px;
     letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif;
+       
+}
+
+.socials_icon{
+    width: 36px;
+    height: 36px;
+    margin-right: 2%;
+    left: 15%;
+    vertical-align: middle;
+
+    
+    
 }
 
 .h2{
@@ -42,5 +68,206 @@
     color: white;
     font-weight: 400;
     letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif;
+    
 }
+
+.h3{
+    margin-top: 25%;
+    text-align: center;
+    
+    font-size: 15px;
+    color: gray;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.signup{
+   color: #ff6d71;
+   text-decoration: none;
+   
+}
+
+
+/* CREATE_1 */
+
+.h1_create_account{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25%;
+    margin-left: 5%;
+    font-size: 50px;
+    margin-bottom: 15%;
+}
+
+.input_container{
+   margin: 5%;
+   text-align: center;
+   
+}
+
+.input_icons{
+    width: 100%;
+    background-color: white;
+    color: lightgray;
+    border: solid 1px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.input_email{
+    width: 70%;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;  
+    font-size: 14px;
+}
+
+.input_password{
+    width: 62%;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;  
+    font-size: 14px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.img_icons{
+    vertical-align: middle;
+    
+}
+
+
+
+.password_checkbox{
+    -webkit-appearance: none;
+	background-color: #fafafa;
+	border: 3px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 6px;
+	display: inline-block;
+	position: relative;
+    border-color: #ff6d71;
+    vertical-align: middle;
+    
+}
+
+.password_checkbox:active, .password_checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.password_checkbox:checked {
+	background-color: #ff6d71;
+	border: 3px solid #ff6d71;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: white;
+}
+
+.password_checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: white;
+}
+
+
+
+
+
+
+
+.socials_short{
+    text-align: center;
+}
+
+.socials_icon_short{
+    display: inline-block;
+    border: solid 1px;
+    border-color: lightgray;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 24px;
+    height: 24px;
+}
+
+/* avatar */
+
+.h1_profile{
+    margin-top: 20%;
+    font-size: 36px;
+    text-align: center;
+}
+.h2_profile{
+    font-size: 16px;
+    text-align: center;}
+
+
+.avatar_div{
+    text-align: center;
+    margin-top: 20%;
+    line-height: 0em;
+}
+
+.avatar {
+    vertical-align: middle;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+  
+  .avatar_edit{
+    width: 5%;
+    position: relative;
+    top: 40px;
+    right: 35px;
+   
+    
+}
+
+  .input_email_profile{
+        width: 62%;
+        background-color: white;
+        border: none;
+        padding: 10px;
+        margin: 5px;  
+        font-size: 14px;
+   }
+
+   .btn_profile{
+       margin-top: 10%;
+       display: inline-block;
+       width: 100%;
+       text-align: center;
+   }
+
+   .btn_start{
+    width: 30%;
+    margin: 5%;
+    background-color: #ff6d71;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 0px 15px 0px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+   }
+
+   .btn_skip{
+    width: 30%;
+    margin: 5%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 0px 15px 0px;
+    color: #ff6d71;
+    font-weight: 400;
+    letter-spacing: 1px;
+   }
