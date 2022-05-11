@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/loading_anim.css">
+    <link rel="stylesheet" href="styles/loading.css">
+
+    <title>Pomo</title>
+</head>
+<body>
+    <img class="img_logo" src="index_logo.png">
+    <!-- Spinner de carregamento-->
+    <div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    
+</body>
+    <script>
+        // Timeout de 1.5s e redirecionar para outra pagina
+        setTimeout(function () {
+        window.open('start/main.html', '_self');
+        }, 1500);
+    </script>
+</html>

@@ -1,0 +1,50 @@
+
+.main{
+    margin-top: 30%;
+}
+
+.h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40%;
+    margin-bottom: 20%;
+}
+
+
+.sliders{
+    margin-left: 40%;
+}
+
+.slider{
+    display: inline-block;
+    width: 10%;
+    margin-left: 1%;
+    background-color: #ff6d71;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 0 5px 0;  
+}
+
+.slider_grey{
+    display: inline-block;
+    width: 4%;
+    margin-left: 1%;
+    background-color: grey;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 0 5px 0;  
+    opacity: 0.8;
+}
+
+.main_button{
+    width: 90%;
+    margin: 5%;
+    background-color: #ff6d71;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 0px 15px 0px;
+    color: white;
+}
+
+
